@@ -6,17 +6,17 @@ import {
     DELETE_POST
 } from './actionTypes'
 
-export const postContent = (post) => ({
+export const postContent = post => ({
     type: POST_CONTENT,
     post,
 })
 
-export const upvotePost = (id) => ({
+export const upvotePost = id => ({
     type: UPVOTE_POST,
     id,
 })
 
-export const downvotePost = (id) => ({
+export const downvotePost = id => ({
     type: DOWNVOTE_POST,
     id,
 })
