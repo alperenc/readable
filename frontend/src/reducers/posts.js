@@ -4,9 +4,9 @@ import {
   DOWNVOTE_POST,
   EDIT_POST,
   DELETE_POST
-} from "./actions/actionTypes";
+} from "../actions/actionTypes";
 
-const posts = (state = {}, action) => {
+export const posts = (state = {}, action) => {
   const { post, id } = action;
 
   switch (action.type) {
